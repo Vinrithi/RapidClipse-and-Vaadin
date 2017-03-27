@@ -1,0 +1,3 @@
+Under web content there are two themes: myproject1 and dashboard.
+Please use the dashboard theme. It is already put at the top in DesktopUi.java, but you also have to change it in the design side i.e. 
+there is a dropdown of themes to pick from. Instead of picking myproject1 pick dashboard.
