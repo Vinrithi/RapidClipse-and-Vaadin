@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<?xdevuiml version="1.0"?>
+<?template BROWSER_XGA?>
+<?import com.xdev.ui.XdevButton?>
+<?import com.xdev.ui.XdevGridLayout?>
+<?import com.xdev.ui.XdevLabel?>
+<?import com.xdev.ui.XdevTextField?>
+<?import com.xdev.ui.XdevView?>
+<XdevView xmlns:x="http://xml.xdev-software.com/xdevuiml" x:name="MainView">
+    <x:constraints zpos="0" width="100%" height="100%" />
+    <XdevGridLayout x:name="gridLayout">
+        <x:constraints zpos="0" width="100%" height="100%" />
+        <XdevButton caption="Button" x:name="button">
+            <x:constraints gridx="1" gridy="1" weighty="0.0" weightx="0.0" />
+        </XdevButton>
+        <XdevLabel x:name="label" value="Label">
+            <x:constraints gridx="2" gridy="1" weighty="0.0" weightx="0.0" />
+        </XdevLabel>
+        <XdevTextField columns="5" x:name="textField">
+            <x:constraints gridx="2" gridy="2" weighty="0.0" weightx="0.0" />
+        </XdevTextField>
+        <XdevButton caption="Button" x:name="button2">
+            <x:constraints gridx="3" gridy="3" weighty="0.0" weightx="0.0" />
+        </XdevButton>
+    </XdevGridLayout>
+</XdevView>
+
