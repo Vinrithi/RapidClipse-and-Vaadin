@@ -1,0 +1,13 @@
+@mixin dashboard-transactions-view {
+  $custom-padding: 0;
+  .transactions {
+    .viewheader {
+      padding: $view-padding;
+      padding-left: $custom-padding;
+      padding-right: $custom-padding;
+
+      border-bottom: valo-border($strength: 0.5);
+    }
+  }
+
+}
